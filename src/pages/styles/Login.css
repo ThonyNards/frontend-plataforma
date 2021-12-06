@@ -1,0 +1,22 @@
+
+section{
+  color: white;
+  
+}
+
+section .login{
+  width: 700px;
+  height: 400px;
+
+  display: flex;
+  background-color: #1B2034;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+section .login__form{
+  justify-content: center;
+  align-items: center;
+
+}

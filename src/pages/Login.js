@@ -13,8 +13,8 @@ class Login extends React.Component {
               <div className="info">
                 <h2>¡Bienvenido!</h2>
                 <p>
-                  Estamos en constante mejora siguenos para enterarte de
-                  nuestras actualizaciones
+                  Estamos en constante mejora, siguenos para enterarte de
+                  nuestras actualizaciones.
                 </p>
                 <div className="socialMedia"></div>
               </div>
@@ -26,8 +26,11 @@ class Login extends React.Component {
                 <input type="text" placeholder="Email" />
                 <input type="password" placeholder="Password" />
 
-                <button>Ingresar</button>
-                <StyledLink to="">Registrarse</StyledLink>
+                <div className="row">
+                  <button className="form__button--login">Ingresar</button>
+                  <StyledLink to=""><u>Registrarse</u></StyledLink>
+                </div>
+
               </div>
             </div>
           </div>

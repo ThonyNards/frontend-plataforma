@@ -16,7 +16,7 @@ body {
 }
 
 button{
-  background-color: #E0B01F;
+  background-color: #F9B65D;
   border: none;
   box-shadow: 0 1px 6px 0 #171717;
 

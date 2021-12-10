@@ -1,0 +1,78 @@
+
+section{
+  color: white;
+
+  margin-top: 120px;
+}
+
+section .login{
+  width: 750px;
+  height: 400px;
+
+  
+  display: flex;
+  background-color: #1B2034;
+  align-items: center;
+
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+section .login__form{
+  width: 320px;
+
+  text-align: center;
+
+  padding: 18px;
+}
+
+section .login__form input{
+  width: 250px;
+  height: 40px;
+
+  margin-bottom: 20px;
+}
+
+section .login__form .login__logoContainer{
+  width: 280px;
+  height: 80px;
+
+  box-shadow: 0 1px 6px 0 #171717;
+
+  border-radius: 15px;
+
+  margin-bottom: 20px;
+}
+
+section .login__form .login__platfomLogo{
+  width: 240px;
+}
+
+section .login__form .form__button--login{
+  width: 100px;
+  height: 30px;
+  margin: 0 auto;
+}
+
+section .info {
+  height: 300px;
+
+  padding: 18px;
+  box-shadow: 0 1px 6px 0 #171717;
+
+  border-radius: 25px;
+}
+
+section .info p{
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+section .info img{
+  width: 50px;
+
+  
+  margin-top: 20px;
+  margin-right: 20px;
+}
+

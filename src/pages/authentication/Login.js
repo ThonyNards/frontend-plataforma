@@ -1,7 +1,11 @@
 import React from "react";
-import { StyledLink } from "../globalStyles";
+import { StyledLink } from "../../globalStyles";
 
 import "./styles/Login.css";
+import platformIcon from "../../resources/images/logoPlatform.png";
+import facebookIcon from "../../resources/images/icon_facebook.png";
+import instagramIcon from "../../resources/images/icon_instagram.png";
+import twitterIcon from "../../resources/images/icon_twitter.png";
 
 class Login extends React.Component {
   render() {
@@ -16,21 +20,32 @@ class Login extends React.Component {
                   Estamos en constante mejora, siguenos para enterarte de
                   nuestras actualizaciones.
                 </p>
-                <div className="socialMedia"></div>
+                <div className="socialMedia">
+                  <img src={facebookIcon} alt="facebookIcon" />
+                  <img src={instagramIcon} alt="instagramIcon" />
+                  <img src={twitterIcon} alt="twitterIcon" />
+                </div>
               </div>
             </div>
             <div className="col-6">
               <div className="login__form">
-                <img src="" alt="" />
+                <div className="login__logoContainer">
+                  <img
+                    className="login__platfomLogo"
+                    src={platformIcon}
+                    alt="platformIcon"
+                  />
+                </div>
                 <h1>Login</h1>
                 <input type="text" placeholder="Email" />
                 <input type="password" placeholder="Password" />
 
                 <div className="row">
                   <button className="form__button--login">Ingresar</button>
-                  <StyledLink to=""><u>Registrarse</u></StyledLink>
+                  <StyledLink to="">
+                    <u>Registrarse</u>
+                  </StyledLink>
                 </div>
-
               </div>
             </div>
           </div>

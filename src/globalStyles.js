@@ -7,13 +7,27 @@ import { Link } from "react-router-dom";
 //  ya existentes como el Link, que no permite la modificacion de sus estilos por medio del selector Link
 
 const GlobalStyles = createGlobalStyle`
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html{
+  margin: 0px;
+  height: 100%
+  width: 100%
+}
+
 body {
-  margin: 0;
+  min-height: 100vh;
+  max-width: 1200px;
+  margin: 0px;
   padding: 0;
   font-size: 13px;
   font-family: Arial, Helvetica, sans-serif;
   background-color: black;
-  height:100%; 
 }
 
 button{

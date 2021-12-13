@@ -15,7 +15,7 @@ function Layout(props) {
             <main>{props.children}</main>
           </div>
         </div>
-        <footer></footer>
+
         {/* <main>{props.children}</main> */}
       </div>
     </React.Fragment>

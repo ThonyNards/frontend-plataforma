@@ -22,12 +22,17 @@ html{
 
 body {
   min-height: 100vh;
-  max-width: 1200px;
+  max-width: 1500px;
+
   margin: 0px;
   padding: 0;
+
   font-size: 13px;
   font-family: Arial, Helvetica, sans-serif;
+
   background-color: black;
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
 button{
@@ -47,10 +52,9 @@ input{
 }
 
 section{
-
   width: 100%;
   hight: 100%;
-  color: white;
+
 }
 
 nav {

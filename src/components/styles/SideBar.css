@@ -43,13 +43,12 @@ nav .userInfo .userInfo__details{
   
 }
 
-nav .userInfo p{
-  
+nav .userInfo p{  
   font-size: 18px;
 }
 
 nav .userInfo img{
-  width: 80px;
+  width: 50px;
   margin-bottom: 20px;
 }
 

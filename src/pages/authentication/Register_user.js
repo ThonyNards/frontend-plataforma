@@ -2,9 +2,9 @@ import React from "react";
 
 import "./styles/Register_company.css";
 import platformIcon from "../../resources/images/logoPlatform.png";
-import buildingIcon from "../../resources/images/Icon_building.png";
+import userIcon from "../../resources/images/Icon_user.png";
 
-class Register_company extends React.Component {
+class Register_user extends React.Component {
   render() {
     return (
       <React.Fragment>
@@ -12,15 +12,15 @@ class Register_company extends React.Component {
           <div className="register row">
             <div className="col-6">
               <div className="registerInfo">
-                <h1>Registro como empresa</h1>
+                <h1>Registro como usuario</h1>
                 <hr />
                 <h2>Proceso de registro</h2>
                 <p>
-                  Al terminar el registro debera esperar a que la cuenta sea
-                  activada.
+                  Despues de registrarte deberas esperar a ser admitido por el
+                  administrador de tu grupo.
                 </p>
                 <div className="registerCompany__icon">
-                  <img src={buildingIcon} alt="facebookIcon" />
+                  <img src={userIcon} alt="facebookIcon" />
                 </div>
               </div>
             </div>
@@ -39,7 +39,10 @@ class Register_company extends React.Component {
                 <input type="password" placeholder="Password" />
                 <input type="password" placeholder="Confirmacion password" />
                 <input type="text" placeholder="Numero de contacto" />
-                <input type="text" placeholder="Nombre empresa" />
+                <input
+                  type="text"
+                  placeholder="ID empresa a la que pertenece"
+                />
 
                 <div className="row">
                   <button className="form__button--login">Ingresar</button>
@@ -53,4 +56,4 @@ class Register_company extends React.Component {
   }
 }
 
-export default Register_company;
+export default Register_user;

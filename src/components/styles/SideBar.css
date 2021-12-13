@@ -1,0 +1,61 @@
+
+nav {
+  width: 290px;
+  height: 100%;
+
+  background-color: #1B2034;
+
+  border-radius: 0 15px 15px 0;
+  box-shadow: 0 1px 6px 0 #171717;
+
+  padding-top: 10px;
+}
+
+nav .sideBar_logoContainer{
+  width: 280px;
+  height: 80px;
+
+  box-shadow: 0 1px 6px 0 hsl(0, 0%, 9%);
+  border-radius: 15px;
+
+  margin-bottom: 20px;
+
+}
+
+nav .sideBar_logoContainer .sideBar__platfomLogo{
+  width: 240px;
+}
+
+nav .userInfo{
+  width: 280px;
+  box-shadow: 0 1px 6px 0 hsl(0, 0%, 9%);
+  border-radius: 15px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+nav .userInfo .userLogo{
+  width: 150px;
+}
+
+nav .userInfo .userInfo__details{
+  margin-top: 20px;
+  
+}
+
+nav .userInfo p{
+  
+  font-size: 18px;
+}
+
+nav .userInfo img{
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+nav .optionsList{
+  width: 280px;
+  box-shadow: 0 1px 6px 0 hsl(0, 0%, 9%);
+  border-radius: 15px;
+  margin: 0 auto;
+}

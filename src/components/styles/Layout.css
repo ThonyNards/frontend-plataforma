@@ -1,0 +1,23 @@
+
+main{
+  /* width: 800px; */
+  height: 100%;
+}
+
+.background{
+  display: flex;
+  height: 100%;
+}
+
+footer{
+  width: 100%;
+  height: 50px;
+  position: absolute; /*posiciona footer abajo del todo*/
+  bottom: 0;
+  display: grid; /* Genera la cuadricula necesaria para el uso de las columnas propias de css*/
+  grid-template-columns: 1fr 1fr; /*genera 2 fracciones: 1fr y 1fr o dos columnas*/
+  font-size: 13px;
+  background-color: #171717;
+  border-top: 1px solid #202124;
+}
+

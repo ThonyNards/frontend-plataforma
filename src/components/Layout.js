@@ -1,11 +1,12 @@
 import React from "react";
 
 import SideBar from "./SideBar";
+import "./styles/Layout.css";
 
 function Layout(props) {
   return (
     <React.Fragment>
-      <div className="row">
+      <div className="background row">
         <div className="col-2">
           <SideBar />
         </div>
@@ -13,6 +14,8 @@ function Layout(props) {
           <main>{props.children}</main>
         </div>
       </div>
+      <footer></footer>
+      {/* <main>{props.children}</main> */}
     </React.Fragment>
   );
 }

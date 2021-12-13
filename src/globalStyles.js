@@ -13,6 +13,7 @@ body {
   font-size: 13px;
   font-family: Arial, Helvetica, sans-serif;
   background-color: black;
+  height:100%; 
 }
 
 button{
@@ -31,6 +32,16 @@ input{
   box-shadow: 0 1px 6px 0 #171717;
 }
 
+section{
+
+  width: 100%;
+  hight: 100%;
+  color: white;
+}
+
+nav {
+  color: white;
+}
 `;
 
 const StyledLink = styled(Link)`

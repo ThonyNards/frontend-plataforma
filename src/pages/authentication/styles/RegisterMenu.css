@@ -1,4 +1,7 @@
-section{
+
+
+
+section .RegisterMenu{
   width: 500px;
   height: 400px;
   background-color: #1B2034;
@@ -7,11 +10,12 @@ section{
 
   display: flex;
 
-  justify-content: center;
+  
   align-items: center;
   
   margin: 0 auto;
   margin-top: 120px;
+
 }
 
 section .registerOption{

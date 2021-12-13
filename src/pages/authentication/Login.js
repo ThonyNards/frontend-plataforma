@@ -14,7 +14,7 @@ class Login extends React.Component {
         <section>
           <div className="login row">
             <div className="col-6">
-              <div className="info">
+              <div className="loginInfo">
                 <h2>¡Bienvenido!</h2>
                 <p>
                   Estamos en constante mejora, siguenos para enterarte de

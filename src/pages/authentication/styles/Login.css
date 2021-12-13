@@ -1,21 +1,18 @@
 
 section{
-  color: white;
-
-  margin-top: 120px;
+  display: flex;
+  justify-content: center;
 }
 
 section .login{
   width: 750px;
   height: 400px;
 
-  
-  display: flex;
-  background-color: #1B2034;
   align-items: center;
-
-  margin: 0 auto;
+  background-color: #1B2034;
   border-radius: 15px;
+
+  margin-top: 100px;
 }
 
 section .login__form{
@@ -54,7 +51,7 @@ section .login__form .form__button--login{
   margin: 0 auto;
 }
 
-section .info {
+section .loginInfo {
   height: 300px;
 
   padding: 18px;
@@ -63,14 +60,13 @@ section .info {
   border-radius: 25px;
 }
 
-section .info p{
+section .loginInfo p{
   font-size: 20px;
   margin-bottom: 50px;
 }
 
-section .info img{
+section .loginInfo img{
   width: 50px;
-
   
   margin-top: 20px;
   margin-right: 20px;

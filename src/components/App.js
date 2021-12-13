@@ -6,6 +6,7 @@ import Summary from "../pages/Summary";
 import Login from "../pages/authentication/Login";
 import RegisterMenu from "../pages/authentication/RegisterMenu";
 import RegisterCompany from "../pages/authentication/Register_company";
+import RegisterUser from "../pages/authentication/Register_user";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route exact path="/summary" element={<Summary />} />
           <Route exact path="/registerMenu" element={<RegisterMenu />} />
           <Route exact path="/registerCompany" element={<RegisterCompany />} />
+          <Route exact path="/registerUser" element={<RegisterUser />} />
           <Route exact path="/" element={<Login />} />
         </Routes>
       </Layout>

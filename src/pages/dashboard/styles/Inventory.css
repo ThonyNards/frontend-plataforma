@@ -9,19 +9,79 @@ section .inventory{
   margin-top: 100px;
 }
 
-section .inventoryBox{
+section .inventory__panel{
+  width: 900px;
 
   box-shadow: 0 1px 6px 0 #171717;
   border-radius: 15px;
 
+  padding: 20px;
+
 }
 
-ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+section .inventoryPanel__header{
+  margin-bottom: 20px;
 }
 
-li{
-  float: left;
+section .searchBar{
+  width: 200px;
+  border-radius: 100px;
+  border: 1px solid #dfe1e5;
+  display: flex; /* flex permite poner el contenido de forma lineal*/
+  justify-content: center;
+  align-items: center;
+}
+
+section .searchBar input{
+  width: 120px;
+  height: 20px;
+
+  margin-left: 10px;
+
+  border: none;
+  outline: none;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+section .inventory .inventory__itemList{
+  width: 860px;
+  height: 400px;
+
+  margin: 0 auto;
+  padding-top: 10px;
+  
+  display: block;
+
+  box-shadow: 0 1px 6px 0 #171717;
+  border-radius: 10px;
+
+  font-size: 18px;
+}
+
+.inventory .inventory__itemList .inventory__itemList-header{
+  height: 40px;
+
+  margin-bottom: 10px;
+}
+
+.inventory .inventory__itemList .inventory__itemList-item{
+  margin-bottom: 10px;
+}
+
+.inventory .inventory__itemList hr{
+  width: 500;
+  border: 1px solid gray;
+}
+
+
+section .inventory__options{
+  margin-top: 20px;
+}
+
+section .inventory__options button{
+  width: 150px;
+
+  margin-bottom: 10px;
+  margin-right: 20px;
 }

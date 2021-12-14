@@ -37,3 +37,8 @@ section .register .registerCompany__icon{
   width: 100px;
 }
 
+input{
+  border: none;
+  outline: none;
+  background-color: transparent;
+}

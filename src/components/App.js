@@ -8,6 +8,7 @@ import RegisterCompany from "../pages/authentication/Register_company";
 import RegisterUser from "../pages/authentication/Register_user";
 import Summary from "../pages/Summary";
 import Inventory from "../pages/dashboard/Inventory";
+import ProductDetails from "./ProductDetails";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
           <Route exact path="/registerUser" element={<RegisterUser />} />
           <Route exact path="/summary" element={<Summary />} />
           <Route exact path="/inventory" element={<Inventory />} />
-          <Route exact path="/" element={<Login />} />
+          <Route exact path="/" element={<ProductDetails />} />
         </Routes>
       </Layout>
     </Router>

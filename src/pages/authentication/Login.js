@@ -1,5 +1,7 @@
 import React from "react";
+
 import { StyledLink } from "../../globalStyles";
+import { Link } from "react-router-dom";
 
 import "./styles/Login.css";
 import platformIcon from "../../resources/images/logoPlatform.png";
@@ -41,7 +43,9 @@ class Login extends React.Component {
                 <input type="password" placeholder="Password" />
 
                 <div className="row">
-                  <button className="form__button--login">Ingresar</button>
+                  <button className="form__button--login">
+                    <Link to="/summary">Ingresar</Link>
+                  </button>
                   <StyledLink to="">
                     <u>Registrarse</u>
                   </StyledLink>

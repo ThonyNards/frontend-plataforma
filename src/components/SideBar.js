@@ -46,7 +46,7 @@ class SideBar extends React.Component {
               <SubMenu title="Dashboard">
                 <Link to="/registerMenu" />
                 <MenuItem>Inventario</MenuItem>
-                <Link to="/" />
+                <Link to="/inventory" />
                 <SubMenu title="Registro">
                   <MenuItem>Historial de productos</MenuItem>
                   <MenuItem>Historial de ventas</MenuItem>

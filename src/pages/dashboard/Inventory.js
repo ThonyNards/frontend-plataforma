@@ -1,5 +1,6 @@
 import React from "react";
 
+import ProductDetails from "../../components/ProductDetails";
 import "./styles/Inventory.css";
 
 class Inventory extends React.Component {
@@ -20,6 +21,7 @@ class Inventory extends React.Component {
                 </div>
               </div>
               <div className="row inventory__itemList">
+                {/* TODO: open modal when someone clicks on the item */}
                 <div className="row row-cols-7 inventory__itemList-header">
                   <div className="col-1">ID</div>
                   <div className="col">Nombre</div>
@@ -38,15 +40,11 @@ class Inventory extends React.Component {
                   <div className="col">Aparato electronico</div>
                   <div className="col-2">Producto para ....</div>
                   <hr />
-                </div>
-                <div className="row row-cols-7 inventory__itemList-item">
-                  <div className="col-1">456</div>
-                  <div className="col">Raqueta electrica</div>
-                  <div className="col">20</div>
-                  <div className="col">$ 5.000</div>
-                  <div className="col">Aparato electronico</div>
-                  <div className="col-2">Producto para ....</div>
-                  <hr />
+
+                  <ProductDetails
+                    isOpen={this.props.modalIsOpen}
+                    isClose={this.props.onCLoseModal}
+                  ></ProductDetails>
                 </div>
               </div>
               <div className="row inventory__options">

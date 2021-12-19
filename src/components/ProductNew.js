@@ -1,21 +1,15 @@
 import React from "react";
 import Modal from "./Modal";
-
-import ProductEdit from "./ProductEdit";
 import userImg from "../resources/images/Icon_user.png";
+import "./styles/ProductNew.css";
 
-import "./styles/ProductDetails.css";
+function ProductNew(props) {
+  //TODO: organice the component inputs, css clases
 
-function ProductDetails(props) {
   return (
     <Modal isOpen={props.isOpen} onClose={props.onClose}>
       <section>
         <div className="productDetails">
-          <div className="productDetails__closeButton">
-            <button onClick={props.onClose}>
-              <img src="" alt="" />
-            </button>
-          </div>
           <div className="productDetails__img">
             <img src={userImg} alt="" />
           </div>
@@ -40,20 +34,13 @@ function ProductDetails(props) {
             <hr />
           </div>
           <div className="productDetails__options">
-            <button onClick={props.onOpenProductEditModal}>
-              Actualizar informacion
-            </button>
-            <button>Desactivar producto</button>
+            <button>Crear producto</button>
+            <button onClick={props.onClose}>Cancelar</button>
           </div>
         </div>
-
-        <ProductEdit
-          isOpen={props.productEditModalIsOpen}
-          onClose={props.productEditModalOnClose}
-        ></ProductEdit>
       </section>
     </Modal>
   );
 }
 
-export default ProductDetails;
+export default ProductNew;

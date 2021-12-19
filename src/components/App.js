@@ -7,7 +7,7 @@ import RegisterMenu from "../pages/authentication/RegisterMenu";
 import RegisterCompany from "../pages/authentication/Register_company";
 import RegisterUser from "../pages/authentication/Register_user";
 import Summary from "../pages/Summary";
-import Inventory from "../pages/dashboard/Inventory";
+import Inventory from "../pages/dashboard/InventoryContainer";
 
 function App() {
   return (

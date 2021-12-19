@@ -7,6 +7,11 @@ section .inventory{
   border-radius: 15px;
 
   margin-top: 100px;
+
+}
+
+section .inventory h1{
+  justify-content: left;
 }
 
 section .inventory__panel{
@@ -67,6 +72,11 @@ section .inventory .inventory__itemList{
 
 .inventory .inventory__itemList .inventory__itemList-item{
   margin-bottom: 10px;
+}
+
+.inventory .inventory__itemList .inventory__itemList-item :hover{
+  cursor: pointer;
+  /* background-color: yellow; */
 }
 
 .inventory .inventory__itemList hr{

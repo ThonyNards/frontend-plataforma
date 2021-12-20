@@ -1,15 +1,17 @@
 
-section .productDetails{
-  width: 320px;
+section .productNew{
+  width: 400px;
   
   display: inline-block;
-  
+  padding-top: 10px;
 
   box-shadow: 0 1px 6px 0 #171717;
   border-radius: 10px;  
+
+  overflow: visible;
 }
 
-section .productDetails .productDetails__closeButton{
+section .productNew .productNew__closeButton{
   width: 20px;
   height: 20px;  
 
@@ -17,45 +19,41 @@ section .productDetails .productDetails__closeButton{
   
 }
 
-.productDetails .productDetails__closeButton button{
+.productNew .productNew__closeButton button{
   width: 20px;
   height: 20px;
 }
 
-section .productDetails .productDetails__img{
+section .productNew .productNew__img{
   width: 100px;
 
   margin: 0 auto;
-
   display: flex;
   justify-content: center;
-
 
   box-shadow: 0 1px 6px 0 #171717;
   border-radius: 10px;  
 }
 
-
-
-section .productDetails .productDetails__info{
-  width: 290px;
+section .productNew .productNew__info{
+  width: 370px;
 
   margin: 0 auto;
   margin-top: 20px;
   padding: 10px;
+  max-height: 480px;
+  overflow-y: scroll;
 
   box-shadow: 0 1px 6px 0 #171717;
   color: gray;
 }
 
-section .productDetails .productDetails__options{
-
-
+section .productNew .productNew__options{
   align-items: center;
   padding: 10px;
 }
 
-.productDetails .productDetails__options button{
+.productNew .productNew__options button{
   width: 150px;
 
   margin-bottom: 10px;

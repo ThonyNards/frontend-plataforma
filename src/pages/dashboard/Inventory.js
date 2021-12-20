@@ -1,7 +1,7 @@
 import React from "react";
 
 import ProductDetails from "../../components/ProductDetails";
-import ProductEdit from "../../components/ProductEdit";
+
 import ProductNew from "../../components/ProductNew";
 import "./styles/Inventory.css";
 

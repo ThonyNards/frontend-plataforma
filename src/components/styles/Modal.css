@@ -13,10 +13,10 @@
 
 .Modal__container {
   position: relative;
-  top: 1rem;
+  top: 0rem;
   background-color: #ffffff;
-  padding: 0.5rem;
-  width: 320px;
+  padding: 0.2rem;
+
   border-radius: 10px;  
 }
 
